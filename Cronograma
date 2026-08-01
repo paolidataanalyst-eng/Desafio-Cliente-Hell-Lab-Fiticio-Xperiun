@@ -1,85 +1,213 @@
-📅 Cronograma do Projeto HealthLab BI
 
-Duração estimada: 12 dias úteis
+📅 Cronograma Detalhado - Projeto HealthLab BI (14 Dias Úteis)
+Semana 1
+🔹 Dia 1 - Planejamento e Descoberta
+Objetivo: Entender o negócio e definir o escopo.
 
-Fase 1 - Planejamento e Descoberta
-Dia	Atividade1	Entendimento do desafio
-1	Levantamento dos requisitos de negócio
-1	Definição dos indicadores e páginas do dashboard
+Atividades
 
-Entregável: Escopo aprovado
+Kickoff do projeto
+Entendimento das regras de negócio
+Levantamento dos requisitos
+Definição dos indicadores
+Definição das metas a serem monitoradas
+Estruturação do escopo
+Entregável ✅ Documento de escopo aprovado
 
-Fase 2 - Preparação dos Dados
-Dia	Atividade2	Importação das bases
-2	Análise exploratória dos dados
-3	Limpeza e tratamento dos dados
-3	Criação da tabela calendário
+🔹 Dia 2 - Análise e Importação dos Dados
+Objetivo: Conhecer a qualidade dos dados.
 
-Entregável: Base tratada
+Atividades
 
-Fase 3 - Modelagem
-Dia	Atividade4	Construção do modelo dimensional
-4	Criação dos relacionamentos
-4	Validação da modelagem
+Importação dos arquivos
+Identificação de tabelas fato e dimensões
+Análise exploratória
+Verificação de duplicidades
+Verificação de dados nulos
+Validação das chaves
+Entregável ✅ Diagnóstico da base
 
-Entregável: Modelo estrela finalizado
+🔹 Dia 3 - Tratamento dos Dados
+Objetivo: Preparar os dados para modelagem.
 
-Fase 4 - Desenvolvimento
-Dia	Atividade5	Construção dos KPIs e medidas
-6	Desenvolvimento da Página Executiva
-7	Desenvolvimento da Página Operacional
-8	Desenvolvimento da Página Financeira
-9	Desenvolvimento da Página de Insights
+Atividades
 
-Entregável: Dashboard funcional
+Limpeza dos dados
+Padronização de datas
+Ajuste dos tipos de dados
+Criação da tabela calendário
+Criação de colunas derivadas
+Entregável ✅ Base tratada
 
-Fase 5 - Design e Storytelling
-Dia	Atividade10	Aplicação da identidade visual
-10	Ajustes de UX/UI
-10	Construção do storytelling executivo
+🔹 Dia 4 - Modelagem Dimensional
+Objetivo: Construir a fundação do dashboard.
 
-Entregável: Dashboard finalizado visualmente
+Atividades
 
-Fase 6 - Testes e Ajustes
-Dia	Atividade11	Testes de filtros e segmentações
-11	Validação dos indicadores
-11	Testes de navegação
-11	Revisão de performance
-Ajustes
-Dia	Atividade12	Correções encontradas nos testes
-12	Refinamento visual
-12	Revisão geral do projeto
+Construção do modelo estrela
+Relacionamentos
+Validação das cardinalidades
+Otimização da modelagem
+Entregável ✅ Modelo dimensional concluído
 
-Entregável: Dashboard homologado
+🔹 Dia 5 - Desenvolvimento dos Indicadores
+Objetivo: Construir a camada analítica.
 
-Fase 7 - Publicação e Encerramento
-Dia	Atividade12	Publicação no Power BI Service
-12	Geração do link público
-12	Atualização do GitHub
-12	Documentação final
+Atividades
+
+Faturamento
+Atendimentos
+Pacientes
+Ticket Médio
+Indicadores de metas
+Indicadores de produtividade
+Entregável ✅ Camada de métricas pronta
+
+Semana 2
+🔹 Dia 6 - Dashboard Executivo
+Objetivo: Construir a visão para diretoria.
+
+Atividades
+
+Cards KPI
+Evolução mensal
+Comparação com metas
+Segmentações globais
+Entregável ✅ Página Executiva
+
+🔹 Dia 7 - Dashboard Operacional
+Objetivo: Monitorar produtividade.
+
+Atividades
+
+Atendimentos por hora
+Atendimentos por dia da semana
+Ranking de recepcionistas
+Visão operacional
+Entregável ✅ Página Operacional
+
+🔹 Dia 8 - MVP e Validação
+Objetivo: Validar direção do projeto.
+
+Atividades
+
+Apresentação do MVP
+Coleta de feedback
+Registro dos ajustes
+Aprovação da navegação
+Entregável ✅ MVP validado
+
+🔹 Dia 9 - Dashboard Financeiro
+Objetivo: Monitorar receita.
+
+Atividades
+
+Receita por convênio
+Receita por procedimento
+Rankings
+Participação na receita
+Entregável ✅ Página Financeira
+
+🔹 Dia 10 - Dashboard de Insights
+Objetivo: Gerar valor de negócio.
+
+Atividades
+
+Melhor período
+Pior período
+Convênios mais relevantes
+Procedimentos mais relevantes
+Horários de pico
+Storytelling Executivo
+Entregável ✅ Página de Insights
+
+🔹 Dia 11 - Testes Funcionais
+Objetivo: Garantir consistência.
+
+Atividades
+
+Testes de filtros
+Testes de segmentações
+Validação dos indicadores
+Conferência dos resultados
+Entregável ✅ Relatório de testes
+
+🔹 Dia 12 - Testes de Performance
+Objetivo: Garantir boa experiência.
+
+Atividades
+
+Tempo de carregamento
+Performance dos visuais
+Navegação
+Validação de experiência
+Entregável ✅ Dashboard homologado
+
+🔹 Dia 13 - Ajustes Finais
+Objetivo: Refinar a entrega.
+
+Atividades
+
+Correções identificadas
+Melhorias visuais
+Ajustes de layout
+Revisão geral
+Entregável ✅ Versão final aprovada
+
+🔹 Dia 14 - Publicação e Encerramento
+Objetivo: Formalizar a entrega.
+
+Atividades
+
+Publicação Power BI Service
+Atualização do GitHub
+Finalização da documentação
+Entrega do projeto
+Entregável ✅ Projeto entregue
+
 🎯 Marcos do Projeto
+M1 - Escopo Aprovado
+📅 Dia 1
 
-✅ M1 - Escopo definido (Dia 1)
+M2 - Dados Tratados
+📅 Dia 3
 
-✅ M2 - Dados tratados (Dia 3)
+M3 - Modelo Dimensional Concluído
+📅 Dia 4
 
-✅ M3 - Modelo dimensional concluído (Dia 4)
+M4 - Dashboard MVP
+📅 Dia 8
 
-✅ M4 - Dashboard desenvolvido (Dia 9)
+M5 - Dashboard Completo
+📅 Dia 10
 
-✅ M5 - Testes concluídos (Dia 11)
+M6 - Homologação
+📅 Dia 12
 
-✅ M6 - Ajustes finalizados (Dia 12)
+M7 - Entrega Final
+📅 Dia 14
 
-✅ M7 - Projeto publicado e entregue (Dia 12)
+💰 Resumo Executivo
+Projeto: HealthLab BI Project
 
-Reserva de Contingência
+Prazo: 14 dias úteis
 
-+1 dia opcional (Dia 13)
+Metodologia: MVP → Validação → Desenvolvimento → Testes → Homologação → Entrega
 
-Ajustes solicitados após validação
-Correções de publicação
-Melhorias estéticas finais
-Inclusão de insights adicionais
+Valor estimado: R$ 4.500,00
 
-Essa estrutura fica mais profissional para GitHub porque mostra claramente desenvolvimento → testes → ajustes → publicação, seguindo uma abordagem próxima à utilizada em projetos reais de BI.
+Entregáveis:
+
+Dashboard Power BI
+MVP
+Modelo Estrela
+Storytelling Executivo
+Documentação
+GitHub
+Publicação no Power BI Service
+Apresentação Final para Stakeholders.
+
+
+
+
+
