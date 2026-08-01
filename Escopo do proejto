@@ -1,162 +1,170 @@
-HealthLab BI Project
-📌 Visão Geral
+📋 Escopo do Projeto - HealthLab BI Project
+1. Visão Geral
 
-Projeto de Business Intelligence desenvolvido para o laboratório fictício HealthLab, com o objetivo de fornecer visibilidade operacional e financeira para a gestão através de dashboards interativos no Power BI.
+Desenvolvimento de uma solução de Business Intelligence para a HealthLab, utilizando Power BI para monitoramento operacional e financeiro, permitindo análises estratégicas e apoio à tomada de decisão baseada em dados.
 
-Problema de Negócio
+Prazo estimado: 14 dias úteis
 
-Atualmente a HealthLab possui dificuldade para:
+Valor estimado do projeto: R$ 4.500,00
 
-Acompanhar metas de faturamento
-Monitorar volume de atendimentos
-Identificar gargalos operacionais
-Realizar análises sem processos manuais em Excel
+2. Objetivos
+Centralizar informações operacionais e financeiras
+Automatizar análises atualmente realizadas de forma manual
+Disponibilizar indicadores estratégicos para gestão
+Identificar oportunidades de melhoria operacional
 Apoiar a tomada de decisão baseada em dados
-Objetivo
+3. Escopo Funcional
+3.1 Preparação dos Dados
+Atividades
+Importação das bases
+Análise exploratória dos dados
+Limpeza e padronização
+Tratamento de inconsistências
+Criação da tabela calendário
+Entregável
 
-Desenvolver um Dashboard de Atendimento que permita acompanhamento rápido dos principais indicadores operacionais e financeiros do laboratório.
+Base pronta para modelagem.
 
-📂 Estrutura do Projeto
-Plain Text
-1
-HealthLab-BI-Project/
-2
- 
-3
-│
-4
-├── 01_Dados
-5
-│ ├── f_atendimento.csv
-6
-│ ├── d_convenio.csv
-7
-│ ├── d_procedimento.csv
-8
-│ └── d_recepcionista.csv
-9
-│
-10
-├── 02_Modelagem
-11
-│ ├── Modelo_Estrela.png
-12
-│ └── Dicionario_Dados.md
-13
-│
-14
-├── 03_PowerBI
-15
-│ └── HealthLab.pbix
-16
-│
-17
-├── 04_Dashboard
-18
-│ ├── Pagina_Executiva.png
-19
-│ ├── Pagina_Operacional.png
-20
-│ ├── Pagina_Financeira.png
-21
-│ └── Pagina_Insights.png
-22
-│
-23
-├── 05_Documentacao
-24
-│ ├── Escopo.md
-25
-│ ├── Cronograma.md
-26
-│ └── Apresentacao.md
-27
-│
-28
-└── README.md
-Mostrar mais linhas
-🎯 Escopo
-Dashboard Executivo
-Objetivo
+3.2 Modelagem Dimensional
+Modelo Estrela
+Fato
 
-Responder rapidamente:
+F_Atendimento
 
-Estamos atingindo as metas?
-Como está a evolução dos resultados?
-Qual o desempenho geral da operação?
-Indicadores
+Data/Hora
+ID Atendimento
+ID Paciente
+Valor
+Quantidade
+Convênio
+Procedimento
+Recepcionista
+Dimensões
+
+D_Calendário
+
+Ano
+Mês
+Trimestre
+Dia
+Dia da Semana
+Hora
+
+D_Convênio
+
+D_Procedimento
+
+D_Recepcionista
+
+Entregável
+
+Modelo dimensional documentado.
+
+3.3 Desenvolvimento do Dashboard
+Página 1 – Visão Executiva
+
+Indicadores:
+
 Faturamento
-Meta de Faturamento
-% de Atingimento
 Atendimentos
-Meta de Atendimentos
 Ticket Médio
-Dashboard Operacional
-Objetivo
+Meta de Faturamento
+Meta de Atendimento
+Evolução Mensal
 
-Entender o comportamento da operação.
+Objetivo:
 
-Análises
-Atendimentos por Hora
-Atendimentos por Dia da Semana
-Atendimentos por Recepcionista
-Pacientes Atendidos
-Dashboard Financeiro
-Objetivo
+Responder rapidamente se a operação está atingindo os resultados esperados.
 
-Entender a geração de receita.
+Página 2 – Visão Operacional
 
-Análises
+Indicadores:
+
+Atendimento por Hora
+Atendimento por Dia da Semana
+Atendimento por Recepcionista
+Quantidade de Pacientes
+
+Objetivo:
+
+Identificar padrões operacionais e produtividade.
+
+Página 3 – Visão Financeira
+
+Indicadores:
+
 Receita por Convênio
 Receita por Procedimento
 Ranking de Convênios
 Ranking de Procedimentos
-Ticket Médio
-Dashboard de Insights
+Participação por Receita
+
+Objetivo:
+
+Entender quais áreas geram maior retorno financeiro.
+
+Página 4 – Insights Gerenciais
+
+Indicadores:
+
+Melhor período
+Pior período
+Horários de pico
+Convênio mais rentável
+Procedimento mais relevante
+Recepcionista mais produtivo
+
+Objetivo:
+
+Gerar recomendações para a gestão.
+
+4. MVP (Produto Mínimo Viável)
+
+Antes da entrega final será realizada uma versão MVP para validação.
+
+Escopo do MVP
+Modelo dimensional
+KPIs principais
+Página Executiva
+Página Operacional
 Objetivo
 
-Apresentar recomendações para gestão.
+Validar:
 
-Exemplos
-Melhor mês
-Pior mês
-Convênio mais rentável
-Procedimento mais representativo
-Recepcionista mais produtivo
-Horários de pico
-🏗️ Modelagem
-Fato
-F_Atendimento
-Data/Hora
-ID Atendimento
-ID Paciente
-Qtde Item
-Valor
-ID Convênio
-ID Procedimento
-ID Recepcionista
-Dimensões
-D_Calendário
-Data
-Ano
-Trimestre
-Mês
-Ano/Mês
-Dia da Semana
-Hora
-D_Convênio
-ID Convênio
-Convênio
-D_Procedimento
-ID Procedimento
-Procedimento
-D_Recepcionista
-ID Recepcionista
-Recepcionista
-🎨 Identidade Visual
-Logo
+Layout
+Navegação
+Indicadores
+Experiência do usuário
+Critério de Aprovação
+
+Aceite do MVP para evolução à versão final.
+
+5. Testes e Homologação
+Testes Funcionais
+Indicadores
+Segmentações
+Filtros
+Relacionamentos
+Testes de Performance
+Tempo de carregamento
+Navegação
+Atualização dos visuais
+Testes Visuais
+Layout
+Identidade visual
+Responsividade
+Entregável
+
+Dashboard homologado.
+
+6. Identidade Visual
+Nome
 
 HealthLab
+
+Slogan
+
+Dados que Cuidam
 
 Paleta Oficial
 
@@ -168,26 +176,44 @@ Paleta Oficial
 
 ⚪ #FFFFFF
 
-Cor de Texto
-
-⚫ #263238
-
-📈 Benefícios Esperados
-Centralização das informações
-Redução de análises manuais
-Monitoramento das metas
-Acompanhamento da operação em tempo real
-Identificação de oportunidades de melhoria
-Apoio à tomada de decisão orientada por dados
-✅ Entregáveis
-Dashboard Power BI
-Modelo Dimensional
-Documentação do Projeto
-Storytelling Executivo
-Link Público do Power BI
+7. Entregáveis
+Dashboard Power BI (.pbix)
+Dashboard publicado no Power BI Service
+Modelo dimensional
+Documentação do projeto
+Storytelling executivo
 Repositório GitHub
-🚀 Resultado Esperado
+Apresentação executiva
+Manual de utilização
+8. Premissas
+Disponibilidade das bases de dados
+Acesso ao Power BI Desktop
+Disponibilidade para validação do MVP
+Disponibilidade para homologação final
+9. Critérios de Sucesso
 
-Ao final do projeto, os gestores da HealthLab deverão ser capazes de acompanhar rapidamente o desempenho operacional e financeiro do laboratório, monitorar metas, identificar tendências e apoiar decisões estratégicas através de uma única solução analítica.
+✅ Dashboard publicado
+
+✅ Indicadores homologados
+
+✅ MVP aprovado
+
+✅ Documentação concluída
+
+✅ Projeto disponibilizado no GitHub
+
+✅ Aderência ao prazo de 14 dias úteis
+
+10. Investimento
+Item	ValorProjeto HealthLab BI	R$ 4.500,00
+Prazo	14 dias úteis
+Complexidade	Média
+Ferramentas	Power BI, Power Query, DAX e Modelagem Dimensional
+Condição sugerida
+50% na contratação
+50% na entrega final
+Resultado Esperado
+
+Ao final do projeto, a HealthLab possuirá uma solução analítica completa para acompanhamento de indicadores operacionais e financeiros, permitindo decisões mais rápidas, maior controle da operação e melhor desempenho do negócio.
 
 Forneça seus comentários sobre o BizChat
