@@ -1,0 +1,99 @@
+Projeto BI - Dashboard de Atendimento HealthLab Laboratório
+1️⃣ Contexto
+
+Você atuará como um Consultor de BI neste desafio para desenvolver um Dashboard de Atendimento para o HealthLab Laboratório.
+
+O HealthLab iniciou suas atividades há pouco tempo. Por ser um laboratório novo, ainda não possui uma cultura de dados consolidada, mas está disposto a utilizar informações analíticas para se tornar mais competitivo no mercado.
+
+Após completar seu primeiro ano de operação, a empresa deseja obter maior clareza sobre o desempenho do setor de atendimento. Atualmente, a gestão acompanha apenas duas metas principais:
+
+Meta de Faturamento: R$ 500.000 por mês
+Meta de Atendimentos: 3.000 atendimentos por mês
+
+Apesar dessas metas existirem, elas foram definidas sem uma análise aprofundada dos dados históricos e, até o momento, são os únicos indicadores utilizados para avaliar o negócio.
+
+Henrique, um dos gestores da HealthLab, compartilhou a seguinte situação:
+
+Nossa situação está bem desconfortável.
+
+Já temos um ano de operação mas não temos clareza do nosso desempenho. Sempre que vamos avaliar nossos números precisamos extrair vários relatórios do nosso sistema de atendimentos e fazer cruzamentos de dados no excel.
+
+A gente até consegue saber se batemos nossa meta ou não, mas perdemos muito tempo nesse processo manual e não conseguimos ver um dado atualizado. Isso compromete nossa tomada de decisão.
+
+Sem contar o fluxo da nossa rotina, queríamos ver onde estão nossos gargalos e prestar um serviço de mais qualidade.
+
+2️⃣ Desafio
+
+Sua missão é desenvolver um Dashboard de BI que permita à gestão do HealthLab acompanhar rapidamente o desempenho operacional e financeiro do setor de atendimento.
+
+Além de apresentar os resultados em relação às metas estabelecidas, o dashboard deverá fornecer análises e insights que auxiliem os gestores na tomada de decisão e na identificação de oportunidades de melhoria.
+
+Como consultor de BI, será sua responsabilidade:
+
+Analisar os dados disponibilizados.
+Realizar os tratamentos necessários.
+Criar indicadores relevantes para o negócio.
+Desenvolver visualizações claras e objetivas.
+Identificar padrões, oportunidades e gargalos operacionais.
+Transformar dados em informações úteis para a gestão.
+
+Ao final do projeto, o dashboard deverá ser publicado na Web por meio de um link público para compartilhamento.
+
+3️⃣ Escopo do Projeto
+
+O dashboard deve permitir que a liderança responda rapidamente às seguintes perguntas:
+
+Desempenho Geral
+Estamos atingindo as metas de faturamento?
+Estamos atingindo as metas de atendimento?
+Como está a evolução dos resultados ao longo dos meses?
+Quais meses apresentaram melhor e pior desempenho?
+Performance Financeira
+Qual o faturamento total do laboratório?
+Qual o ticket médio por atendimento?
+Quais exames geram mais receita?
+Quais convênios representam a maior participação no faturamento?
+Performance Operacional
+Qual o volume de atendimentos realizado?
+Quais dias possuem maior demanda?
+Quais horários apresentam pico de atendimento?
+Existem períodos de ociosidade?
+Gestão da Qualidade
+Onde estão os gargalos do processo?
+Em quais etapas existem maiores atrasos?
+Como está o fluxo completo do paciente?
+Existem oportunidades para melhorar a experiência do cliente?
+4️⃣ Objetivo da Solução
+
+Criar um painel gerencial que transforme dados operacionais em informações estratégicas, reduzindo a dependência de processos manuais, acelerando a tomada de decisão e oferecendo uma visão clara da operação do laboratório.
+
+O dashboard deve possibilitar:
+
+✅ Monitoramento das metas em tempo real.
+
+✅ Acompanhamento da evolução dos resultados.
+
+✅ Identificação rápida de gargalos operacionais.
+
+✅ Análise de desempenho financeiro.
+
+✅ Melhor alocação de recursos e equipes.
+
+✅ Maior qualidade no atendimento ao cliente.
+
+✅ Tomada de decisão orientada por dados.
+
+5️⃣ Resultado Esperado
+
+Ao utilizar o dashboard, os gestores do HealthLab deverão conseguir:
+
+Visualizar rapidamente a situação atual do laboratório.
+Identificar desvios em relação às metas.
+Entender os fatores que impactam os resultados.
+Detectar gargalos operacionais.
+Identificar oportunidades de crescimento.
+Acompanhar indicadores estratégicos em uma única solução.
+
+Dessa forma, o HealthLab passará a contar com uma ferramenta centralizada de análise, reduzindo o tempo gasto com atividades manuais e aumentando a eficiência da gestão baseada em dados.
+
+Forneça seus comentários sobre o BizChat
