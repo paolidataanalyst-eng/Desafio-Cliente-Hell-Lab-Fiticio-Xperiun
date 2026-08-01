@@ -1,0 +1,85 @@
+📅 Cronograma do Projeto HealthLab BI
+
+Duração estimada: 12 dias úteis
+
+Fase 1 - Planejamento e Descoberta
+Dia	Atividade1	Entendimento do desafio
+1	Levantamento dos requisitos de negócio
+1	Definição dos indicadores e páginas do dashboard
+
+Entregável: Escopo aprovado
+
+Fase 2 - Preparação dos Dados
+Dia	Atividade2	Importação das bases
+2	Análise exploratória dos dados
+3	Limpeza e tratamento dos dados
+3	Criação da tabela calendário
+
+Entregável: Base tratada
+
+Fase 3 - Modelagem
+Dia	Atividade4	Construção do modelo dimensional
+4	Criação dos relacionamentos
+4	Validação da modelagem
+
+Entregável: Modelo estrela finalizado
+
+Fase 4 - Desenvolvimento
+Dia	Atividade5	Construção dos KPIs e medidas
+6	Desenvolvimento da Página Executiva
+7	Desenvolvimento da Página Operacional
+8	Desenvolvimento da Página Financeira
+9	Desenvolvimento da Página de Insights
+
+Entregável: Dashboard funcional
+
+Fase 5 - Design e Storytelling
+Dia	Atividade10	Aplicação da identidade visual
+10	Ajustes de UX/UI
+10	Construção do storytelling executivo
+
+Entregável: Dashboard finalizado visualmente
+
+Fase 6 - Testes e Ajustes
+Dia	Atividade11	Testes de filtros e segmentações
+11	Validação dos indicadores
+11	Testes de navegação
+11	Revisão de performance
+Ajustes
+Dia	Atividade12	Correções encontradas nos testes
+12	Refinamento visual
+12	Revisão geral do projeto
+
+Entregável: Dashboard homologado
+
+Fase 7 - Publicação e Encerramento
+Dia	Atividade12	Publicação no Power BI Service
+12	Geração do link público
+12	Atualização do GitHub
+12	Documentação final
+🎯 Marcos do Projeto
+
+✅ M1 - Escopo definido (Dia 1)
+
+✅ M2 - Dados tratados (Dia 3)
+
+✅ M3 - Modelo dimensional concluído (Dia 4)
+
+✅ M4 - Dashboard desenvolvido (Dia 9)
+
+✅ M5 - Testes concluídos (Dia 11)
+
+✅ M6 - Ajustes finalizados (Dia 12)
+
+✅ M7 - Projeto publicado e entregue (Dia 12)
+
+Reserva de Contingência
+
++1 dia opcional (Dia 13)
+
+Ajustes solicitados após validação
+Correções de publicação
+Melhorias estéticas finais
+Inclusão de insights adicionais
+
+Essa estrutura fica mais profissional para GitHub porque mostra claramente desenvolvimento → testes → ajustes → publicação, seguindo uma abordagem próxima à utilizada em projetos reais de BI.
