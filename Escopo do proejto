@@ -1,0 +1,193 @@
+HealthLab BI Project
+📌 Visão Geral
+
+Projeto de Business Intelligence desenvolvido para o laboratório fictício HealthLab, com o objetivo de fornecer visibilidade operacional e financeira para a gestão através de dashboards interativos no Power BI.
+
+Problema de Negócio
+
+Atualmente a HealthLab possui dificuldade para:
+
+Acompanhar metas de faturamento
+Monitorar volume de atendimentos
+Identificar gargalos operacionais
+Realizar análises sem processos manuais em Excel
+Apoiar a tomada de decisão baseada em dados
+Objetivo
+
+Desenvolver um Dashboard de Atendimento que permita acompanhamento rápido dos principais indicadores operacionais e financeiros do laboratório.
+
+📂 Estrutura do Projeto
+Plain Text
+1
+HealthLab-BI-Project/
+2
+ 
+3
+│
+4
+├── 01_Dados
+5
+│ ├── f_atendimento.csv
+6
+│ ├── d_convenio.csv
+7
+│ ├── d_procedimento.csv
+8
+│ └── d_recepcionista.csv
+9
+│
+10
+├── 02_Modelagem
+11
+│ ├── Modelo_Estrela.png
+12
+│ └── Dicionario_Dados.md
+13
+│
+14
+├── 03_PowerBI
+15
+│ └── HealthLab.pbix
+16
+│
+17
+├── 04_Dashboard
+18
+│ ├── Pagina_Executiva.png
+19
+│ ├── Pagina_Operacional.png
+20
+│ ├── Pagina_Financeira.png
+21
+│ └── Pagina_Insights.png
+22
+│
+23
+├── 05_Documentacao
+24
+│ ├── Escopo.md
+25
+│ ├── Cronograma.md
+26
+│ └── Apresentacao.md
+27
+│
+28
+└── README.md
+Mostrar mais linhas
+🎯 Escopo
+Dashboard Executivo
+Objetivo
+
+Responder rapidamente:
+
+Estamos atingindo as metas?
+Como está a evolução dos resultados?
+Qual o desempenho geral da operação?
+Indicadores
+Faturamento
+Meta de Faturamento
+% de Atingimento
+Atendimentos
+Meta de Atendimentos
+Ticket Médio
+Dashboard Operacional
+Objetivo
+
+Entender o comportamento da operação.
+
+Análises
+Atendimentos por Hora
+Atendimentos por Dia da Semana
+Atendimentos por Recepcionista
+Pacientes Atendidos
+Dashboard Financeiro
+Objetivo
+
+Entender a geração de receita.
+
+Análises
+Receita por Convênio
+Receita por Procedimento
+Ranking de Convênios
+Ranking de Procedimentos
+Ticket Médio
+Dashboard de Insights
+Objetivo
+
+Apresentar recomendações para gestão.
+
+Exemplos
+Melhor mês
+Pior mês
+Convênio mais rentável
+Procedimento mais representativo
+Recepcionista mais produtivo
+Horários de pico
+🏗️ Modelagem
+Fato
+F_Atendimento
+Data/Hora
+ID Atendimento
+ID Paciente
+Qtde Item
+Valor
+ID Convênio
+ID Procedimento
+ID Recepcionista
+Dimensões
+D_Calendário
+Data
+Ano
+Trimestre
+Mês
+Ano/Mês
+Dia da Semana
+Hora
+D_Convênio
+ID Convênio
+Convênio
+D_Procedimento
+ID Procedimento
+Procedimento
+D_Recepcionista
+ID Recepcionista
+Recepcionista
+🎨 Identidade Visual
+Logo
+
+HealthLab
+
+Paleta Oficial
+
+🔵 #0052CC
+
+🔷 #1E88E5
+
+🩵 #6EC6FF
+
+⚪ #FFFFFF
+
+Cor de Texto
+
+⚫ #263238
+
+📈 Benefícios Esperados
+Centralização das informações
+Redução de análises manuais
+Monitoramento das metas
+Acompanhamento da operação em tempo real
+Identificação de oportunidades de melhoria
+Apoio à tomada de decisão orientada por dados
+✅ Entregáveis
+Dashboard Power BI
+Modelo Dimensional
+Documentação do Projeto
+Storytelling Executivo
+Link Público do Power BI
+Repositório GitHub
+🚀 Resultado Esperado
+
+Ao final do projeto, os gestores da HealthLab deverão ser capazes de acompanhar rapidamente o desempenho operacional e financeiro do laboratório, monitorar metas, identificar tendências e apoiar decisões estratégicas através de uma única solução analítica.
+
+Forneça seus comentários sobre o BizChat
