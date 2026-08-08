@@ -1,0 +1,9 @@
+Mes contexto = //aqui usei allselected para que na minha pagina principal possa trazer o ano e mes do contexo
+SELECTEDVALUE(dCalendario[Mes/Ano])
+
+Mes Anterior = //usei PrevisouMonth para retornar o valor do faturamento Mes anteiror
+CALCULATE(
+    [Total Faturamento],
+    PREVIOUSMONTH(dCalendario[Data])
+)
+
